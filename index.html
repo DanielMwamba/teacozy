@@ -1,98 +1,108 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-   <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Guide de style</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Tea Cozy</title>
 </head>
 
 <body>
-  <h1>Guide de style de mon site web</h1>
-  <div class="container">
-    <h2>Couleurs</h2>
-    <div class="color-container">
-      <div class="color-panel cool-aqua">
-        <p class="color-label">Aqua/<p> 
-        <p class="color-hex">#00FFFF/<p>
-        <p class="color-rgb">rgb(0, 255, 255)</p>
-      </div>
-      <div class="color-panel teal">
-        <p class="color-label">Teal/</p>
-        <p class="color-hex">#008080/</p>
-        <p class="color-rgb">rgb(0, 128, 128)</p>
-      </div>
-      <div class="color-panel blue">
-        <p class="color-label">Blue/</p>
-        <p class="color-hex">#0000FF/</p>
-        <p class="color-rgb">rgb(0, 0, 255)</p>
-      </div>
-      <div class="color-panel navajowhite">
-        <p class="color-label">navajowhite/</p>
-        <p class="color-hex">#ffdead/</p>
-        <p class="color-rgb">rgb(255, 222, 173)</p>
-      </div>
+
+  <!--Header Section: Logo and Navigation-->
+  <header>
+    <div class="logo">
+      <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png" alt="Tea Cozy logo"
+        role="presentation">
     </div>
+    <nav>
+      <a href="#mission-section">Mission</a>
+      <a href="#featured-section">Featured Tea</a>
+      <a href="#location-section">Locations</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!--Tea Cozy Mission Section-->
+    <section id="mission-section">
+      <div class="mission-header">
+        <h2>Our Mission</h2>
+        <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+      </div>
+    </section>
+
+    <!--Featured Tea Section-->
+    <section id="featured-section">
+      <h2>Tea of the Month</h2>
+      <h4>What's Steeping at The Tea Cozy?</h4>
+      <div class="image-container">
+        <figure class="berry">
+          <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg" alt="berry blitz tea"
+            role="presentation">
+          <figcaption>Fall Berry Blitz Tea</figcaption>
+        </figure>
+        <figure class="spiced">
+          <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg" alt="spiced rum tea"
+            role="presentation">
+          <figcaption>Spiced Rum Tea</figcaption>
+        </figure>
+        <figure class="donuts">
+          <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg" alt="donut"
+            role="presentation">
+          <figcaption>Seasonal Donuts</figcaption>
+        </figure>
+        <figure class="myrtle">
+          <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg" alt="myrtle ave tea"
+            role="presentation">
+          <figcaption>Myrtle Ave Tea</figcaption>
+        </figure>
+        <figure class="bizarre">
+          <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg"
+            alt="bedford bizarre tea" role="presentation">
+          <figcaption>Bedford Bizarre Tea</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!--Tea Cozy Locations Section-->
+    <section id="location-section">
+      <h2 class="location-header">Locations</h2>
+      <div class="location-boxes">
+        <div class="location-box">
+          <h3>Downtown</h3>
+          <p>384 West 4th St</p>
+          <p>Suite 108</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="location-box middle-box">
+          <h3>East Bayside</h3>
+          <p>3433 Phisherman's Avenue</p>
+          <p>(Northwest Corner)</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="location-box">
+          <h3>Oakdale</h3>
+          <p>515 Crescent Avenue</p>
+          <p>Second Floor</p>
+          <p>Portland, Maine</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--Contact Section-->
+  <div class="contact">
+    <h2>The Tea Cozy</h2>
+    <h5 class="email">contact@theteacozy.com</h5>
+    <h5>917-555-8904</h5>
   </div>
-  <div class="container">
-    <h2>Police</h2>
-    <div class="font-container">
-      <div class="police-panel">
-        <p class="police-label  Montserrat"> Montserrat</p>
-        <p class="regular Montserrat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus</p>
-        <p class="bold  Montserrat">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum repellendus </p>
-        <p class="italic  Montserrat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus</p>
-      </div>
-      <div class="police-panel">
-        <p class="police-label Ubuntu">Ubuntu</p>
-        <p class="regular Ubuntu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus</p>
-        <p class="bold Ubuntu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus</p>
-        <p class="italic Ubuntu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus</p>
-      </div>
-      <div class="police-panel">
-        <p class="police-label Rajdhani">Rajdhani</p>
-        <p class="regular Rajdhani">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus</p>
-        <p class="bold Rajdhani">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus</p>
-        <p class="italic Rajdhani">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus</p>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <h2>Styles de texte</h2>
-    <div class="text-container">
-      <div class="font-panel">
-        <h1>H1: Titre de la page principale</h1>
-        <ul>
-          <li>Poids de la police: 400 (Bold)</li>
-          <li>Taille de la police: 46px</li>
-          <li>Famille de police: Montserrat</li>
-        </ul>
-      </div>
-      <div class="text-panel">
-        <h2>H2: Sous-titre</h2>
-        <ul>
-          <li>Poids de la police: 400</li>
-          <li>Taille de la police: 30px</li>
-          <li>Famille de polices: Ubuntu</li>
-          <li>Couleur: Teal, rgb(0, 128, 128) </li>
-        </ul>
-      </div>
-      <div class="text-panel">
-        <p class="styl">P: texte du paragraphe</p>
-        <ul>
-          <li>poids de la polices: 400 (regular)</li>
-          <li>Taille de la police: 20px</li>
-          <li>Famille de polices: Rajdhani</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <h5 class="copyright">copyright The Tea Cozy 2017</h5>
+  </footer>
 </body>
 
 </html>
